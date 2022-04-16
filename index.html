@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
 </head>
 <body>
     <header class="header">
+        <div class="border">
         <div class="container">
             <!--logo-->
             <a href="./index.html" class="logo"><span class="logo-color">Web</span>Studio</a>
@@ -30,6 +32,7 @@
                     <li class="contact-items"><a href="tel:+380961111111" class="nav-tel">+38 096 111 11 11</a></li>
                 </ul>
             
+        </div>
         </div>
     </header>
   
@@ -84,22 +87,22 @@
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list">
                 <li class="team-items">
-                    <img src="./images/team1.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                    <img class="team-img" src="./images/team1.jpg" alt="Игорь Демьяненко" width="270" height="260">
                     <h3 class="team-sub-title">Игорь Демьяненко</h3>
                     <p class="team-text">Product Designer</p>
                 </li>
                 <li class="team-items">
-                    <img src="./images/team2.jpg" alt="Ольга Репина" width="270" height="260">
+                    <img class="team-img" src="./images/team2.jpg" alt="Ольга Репина" width="270" height="260">
                     <h3 class="team-sub-title">Ольга Репина</h3>
                     <p class="team-text">Frontend Developer</p>
                 </li>
                 <li class="team-items">
-                    <img src="./images/team3.jpg" alt="Николай Тарасов" width="270" height="260">
+                    <img class="team-img" src="./images/team3.jpg" alt="Николай Тарасов" width="270" height="260">
                     <h3 class="team-sub-title">Николай Тарасов</h3>
                     <p class="team-text">Marketing</p>
                 </li>
                 <li class="team-items">
-                    <img src="./images/team4.jpg" alt="Михаил Ермаков" width="270" height="260">
+                    <img class="team-img" src="./images/team4.jpg" alt="Михаил Ермаков" width="270" height="260">
                     <h3 class="team-sub-title">Михаил Ермаков</h3>
                     <p class="team-text">UI Designer</p>
                 </li>
@@ -108,19 +111,21 @@
     </section>
   </main>
   <!--footer-->
-  <footer class="footer">
-    <div class="container">
-        <!--address-->
-        <a href="./index.html" class="logo"><span class="logo-color">Web</span><span class="footer-logo-color">Studio</span></a>
-        <address class="footer-address">
-            <ul>
-                <li><p class="footer-text">г. Киев, Бульвар Леси Украинки, д. 26,</p></li>
-                <li><a href="mailto:info@devstudio.com" class="footer-mail">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+  <footer>
+    <div class="footer">  
+        <div class="container">
+            <!--address-->
+            <a class="logo-footer" href="./index.html"><span class="logo-color">Web</span><span class="footer-logo-color">Studio</span></a>
+            <address class="footer-address">
+                <ul>
+                    <li class="footer-items"><p class="footer-text">г. Киев, Бульвар Леси Украинки, д. 26,</p></li>
+                    <li class="footer-items"><a href="mailto:info@devstudio.com" class="footer-mail">info@devstudio.com</a></li>
+                    <li class="footer-items"><a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </div>
-</footer>
+  </footer>
 </body>
 </html>
 <!--test comment-->
